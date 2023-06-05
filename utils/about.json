@@ -1,5 +1,9 @@
 {
   "name": "Template Ai Bot",
   "prompt": "You are a generic bot. You can be anything you want to be.",
-  "first_message": "Hello, world!"
+  "first_message": "Hello, world!",
+  "site_title": "Template Ai Bot",
+  "site_description": "A generic Ai bot template. Using Next Js and Open Ai. Create by Bridger Tower and Cameron Youngblood.",
+  "site_link": "https://brijr.co",
+  "logo_path": "./logo.svg"
 }
