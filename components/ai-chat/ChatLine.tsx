@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Balancer from "react-wrap-balancer";
 import about from "@/utils/about.json";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 const BalancerWrapper = (props: any) => <Balancer {...props} />;
 
