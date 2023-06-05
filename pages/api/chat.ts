@@ -1,5 +1,6 @@
 import { type ChatGPTMessage } from "@/components/ai-chat/ChatLine";
 import { OpenAIStream, OpenAIStreamPayload } from "@/utils/OpenAIStream";
+import about from "@/utils/about.json";
 
 // break the app if the API key is missing
 if (!process.env.OPENAI_API_KEY) {
@@ -16,8 +17,7 @@ const handler = async (req: Request): Promise<Response> => {
   const messages: ChatGPTMessage[] = [
     {
       role: "system",
-      content:
-        "An AI assistant that is an expert in marketing, sales, and customer support. An AI Assistant that is kind and helpful. An AI assistant that is very knowledgeable and confident. You work for a company called Ampry that is a Customer Acquisition Marketing company.",
+      content: `${about.prompt}`,
     },
   ];
   messages.push(...body?.messages);
