@@ -33,8 +33,8 @@ To set up and run this project locally:
 
 1. Clone the repository to your local machine.
 2. Install the dependencies by running `npm install`.
-3. Start the development server by running `npm run dev`.
-4. Edit the `.env.example` to be `.env.local` wiht your credentials 
+3. Edit the `.env.example` to be `.env.local` wiht your credentials 
+4. Start the development server by running `npm run dev`.
 
 ## Built With
 
