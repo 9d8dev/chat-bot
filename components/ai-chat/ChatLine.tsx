@@ -46,7 +46,7 @@ export function ChatLine({ role = 'assistant', content }: ChatGPTMessage) {
 
 	return (
 		<div className={role != 'assistant' ? 'float-right clear-both' : 'float-left clear-both'}>
-			<div className="float-right w-96 mb-5 rounded-lg bg-slate-50 p-4 shadow-lg ring-1 ring-slate-200 sm:px-6">
+			<div className="float-right md:w-96 w-56 mb-5 rounded-lg bg-slate-50 p-4 shadow-lg ring-1 ring-slate-200 sm:px-6">
 				<div className="flex space-x-3">
 					<div className="flex-1 gap-4">
 						<p className="font-large text-sm border-l-2 pl-2 mb-4 text-gray-900">
