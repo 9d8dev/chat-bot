@@ -1,4 +1,4 @@
-# Chat Bot
+# ChatGPT Chat Bot Template
 
 This repository contains the source code for a chat bot application written primarily in TypeScript.
 
@@ -34,7 +34,7 @@ To set up and run this project locally:
 1. Clone the repository to your local machine.
 2. Install the dependencies by running `npm install`.
 3. Start the development server by running `npm run dev`.
-4. Edit the 
+4. Edit the `.env.example` to be `.env.local` wiht your credentials 
 
 ## Built With
 
