@@ -1,5 +1,7 @@
 # ChatGPT Chat Bot Template
 
+![CleanShot 2023-06-07 at 10 28 46@2x](https://github.com/by9d8/chat-bot/assets/57158102/9cad5522-f9fe-4e4c-94b2-d3d2b187ace1)
+
 This repository contains the source code for a chat bot application written primarily in TypeScript.
 
 ## Repository Structure
